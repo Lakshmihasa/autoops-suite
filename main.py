@@ -1,12 +1,12 @@
-from modules.file_organizer import FileOrganizer
+from modules.gui import AutoOpsGUI
+import tkinter as tk
 import os
 
-# create test folders
+# Ensure folders exist
 os.makedirs("data/source", exist_ok=True)
 os.makedirs("data/organized", exist_ok=True)
 
 if __name__ == "__main__":
-    organizer = FileOrganizer("data/source", "data/organized")
-    organizer.organize()
-
-    print("✅ Files organized successfully!")
+    root = tk.Tk()
+    app = AutoOpsGUI(root)
+    root.mainloop()
