@@ -1,4 +1,4 @@
-# AutoOps Suite 🚀
+## 🚀 AutoOps Suite - Python Automation Project
 
 A comprehensive Python-based automation suite designed to streamline repetitive tasks such as file organization, web scraping, email automation, and system monitoring.
 
